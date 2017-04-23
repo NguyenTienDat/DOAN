@@ -1,0 +1,186 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.Master.cs" Inherits="Master.Main" %>
+
+<%@ Register Assembly="DevExpress.Web.v16.2, Version=16.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>HỆ THỐNG CHẤM BÀI THI TỰ ĐỘNG</title>
+    <link rel="icon" href="Images/icon.jpg" />
+
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap-theme.css" />
+    <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="Css/css.css" />
+
+
+    <!-- Latest compiled and minified CSS -->
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="header">
+            <div id="left-header">
+                <%--DEVELOP BY NGUYEN TIEN DAT & NGUYEN HUU THUONG--%>
+            </div>
+            <div id="between-header">
+
+                <asp:Panel ID="pnHello" runat="server" Visible="true">
+                    <ul>
+                        <li><a href="User.aspx">
+                            <dx:ASPxHyperLink ID="hpl" runat="server" CssClass="txtUsername" ImageUrl="~/Upload/Users/UserAvatar.png" ImageHeight="50px" NavigateUrl="User.aspx" ImageWidth="50px"></dx:ASPxHyperLink>
+
+                            <dx:ASPxHyperLink ID="lbFullName" runat="server" NavigateUrl="User.aspx" CssClass="txtUsername"></dx:ASPxHyperLink>
+                        </a></li>
+                        <li><a href="">
+                            <asp:ImageButton ID="btnNoti" runat="server" ImageUrl="~/Pages/Images/noti.png" ImageAlign="Middle" Width="30px" Height="30px" OnClick="btnNoti_Click" CausesValidation="False" ToolTip="Thông báo của bạn" BorderStyle="None" />
+
+                            <dx:ASPxPopupControl ID="ppNoti" runat="server" ClientInstanceName="ppNoti"
+                                CloseAction="OuterMouseClick" CloseOnEscape="True" Modal="false" ShowHeader="false" Border-BorderWidth="0" PopupHorizontalAlign="WindowCenter" AutoUpdatePosition="true" BackColor="Black" PopupVerticalAlign="WindowCenter" AllowDragging="false"
+                                PopupAnimationType="Slide" EnableViewState="False" MaxHeight="600px" MaxWidth="900px"
+                                MinHeight="400px" MinWidth="500px" ShowCloseButton="true"
+                                Height="194px" ContentStyle-VerticalAlign="Middle" ContentStyle-HorizontalAlign="Center" AppearAfter="0" PopupAlignCorrection="Disabled" CloseAnimationType="Fade">
+                                <ContentCollection>
+                                    <dx:PopupControlContentControl runat="server">
+                                        <dx:ASPxGridView ID="grv_Noti" runat="server"></dx:ASPxGridView>
+                                    </dx:PopupControlContentControl>
+                                </ContentCollection>
+                            </dx:ASPxPopupControl>
+                        </a></li>
+                        <li><a>
+                            <dx:ASPxButton ID="btnSignOut" runat="server" Text="Đăng Xuất" Width="100px" Theme="BlackGlass" Height="30px" CssClass="button" CausesValidation="False" OnClick="btnSignOut_Click"></dx:ASPxButton>
+                        </a></li>
+
+                        <li><a href="../Admin/Index.aspx">
+                            <dx:ASPxButton ID="btnAdmin" runat="server" Text="Quản trị" Width="100px" Theme="BlackGlass" Height="30px" CssClass="button" CausesValidation="False"></dx:ASPxButton>
+                        </a></li>
+                    </ul>
+                </asp:Panel>
+                <asp:Panel ID="pnLogin" runat="server" Visible="false">
+
+                    <ul>
+                        <li>&nbsp</li>
+                        <li><a href="../Pages/Controler/Login.aspx">
+                            <dx:ASPxButton ID="ASPxButton1" runat="server" Text="Đăng nhập" Width="100px" Theme="BlackGlass" Height="30px" CssClass="button" CausesValidation="False">
+                            </dx:ASPxButton>
+                        </a>
+                        </li>
+
+                        <li><a href="../Pages/Controler/SigUp_User.aspx">
+                            <dx:ASPxButton ID="ASPxButton2" runat="server" Text="Đăng ký" Width="100px" Theme="BlackGlass" Height="30px" CssClass="button" CausesValidation="False"></dx:ASPxButton>
+                        </a></li>
+                    </ul>
+
+                </asp:Panel>
+            </div>
+        </div>
+        <div id="menu">
+            <div id="left-menu">
+                <a href="../Pages/Home.aspx">
+                    <h3><i class="fa fa-home" aria-hidden="true"></i></h3>
+                </a>
+            </div>
+            <div id="between-menu">
+                <ul>
+                    <li><a href="#">Rank</a>
+                    </li>
+                    <li style="border-left: none"><a href="../Pages/Contests.aspx">Khóa học</a>
+                        <div class="id1">
+                            <ul class="submenu">
+                                <li><a href="../Pages/MyContests.aspx">Khóa học của tôi</a></li>
+                                <li><a href="../Pages/Contests.aspx">Tất cả khóa học</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Bài tập</a>
+                        <%--<div class="id1">
+                            <ul class="submenu">
+                                <li><a href="Product_Trademark.aspx?id=1">Đồng hồ Epos Swiss</a></li>
+                                <li><a href="Product_Trademark.aspx?id=2">Bruno Sohnle Glashutte</a></li>
+                                <li><a href="Product_Trademark.aspx?id=3">Đồng hồ Tourbillon Memorigin</a></li>
+                                <li><a href="Product_Trademark.aspx?id=4">Đồng hồ Stuhrling Tourbillon</a></li>
+                                <li><a href="Product_Trademark.aspx?id=5">Đồng hồ Atlantic Swiss</a></li>
+                                <li><a href="Product_Trademark.aspx?id=6">Stuhrling Original Swiss</a></li>
+                            </ul>
+                        </div>--%>
+                    </li>
+                    <li><a href="#">Submissions</a>
+                        <%--<d<%--iv class="id1">
+                              <ul class="submenu">
+                                <li><a href="Product_Trademark.aspx?id=1">Đồng hồ Epos Swiss</a></li>
+                                <li><a href="Product_Trademark.aspx?id=2">Bruno Sohnle Glashutte</a></li>
+                                <li><a href="Product_Trademark.aspx?id=3">Đồng hồ Tourbillon Memorigin</a></li>
+                                <li><a href="Product_Trademark.aspx?id=4">Đồng hồ Stuhrling Tourbillon</a></li>
+                                <li><a href="Product_Trademark.aspx?id=5">Đồng hồ Atlantic Swiss</a></li>
+                                <li><a href="Product_Trademark.aspx?id=6">Stuhrling Original Swiss</a></li>
+                            </ul>
+                        </div>--%>--%>
+                    </li>
+
+                    <li><a href="#">Phản hồi</a></li>
+                </ul>
+            </div>
+            <div id="right-menu">
+                <div class="search">
+                    <div style="float: left;">
+                        <dx:ASPxTextBox ID="txtInput" runat="server" CssClass="input" NullText="Tìm kiếm sản phẩm...">
+                        </dx:ASPxTextBox>
+                    </div>
+                    <div style="float: left; margin-left: 230px; margin-top: -30px">
+                        <script>
+                            function OnInit(s, e) {
+                                s.GetTextContainer().className += " fa fa-search";
+                            }
+                        </script>
+                        <dx:ASPxButton ID="btnSearch" runat="server" CssClass="btn" AutoPostBack="false" Width="30px" Height="30px" OnClick="btnSearch_Click">
+                            <ClientSideEvents Init="OnInit" />
+                        </dx:ASPxButton>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <asp:ContentPlaceHolder ID="content1" runat="server" >
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="footer">
+            <div id="left-footer">
+                <h2>ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI</h2>
+                <p class="p1">Hệ thống chấm bài thi tự động.</p>
+                <p class="p2">Phát triển: Nguyễn Tiến Đạt & Nguyễn Hữu Thương</p>
+                <p class="p3">
+                    Đ/c: Số 298 đường Cầu Diễn, Phường Minh Khai, Quận Bắc Từ Liêm, Thành Phố Hà Nội<br />
+                    Điện thoại: 84.4.37655121<br />
+                    Fax: 84.4.37655261<br />
+                    Email: dhcnhn@haui.edu.vn 
+                </p>
+            </div>
+            <div id="between-footer">
+                <ul>
+                    <li style="color: #ffffff">HỖ TRỢ</li>
+                    <li><a href="#">Hướng dẫn đăng ký tài khoản</a></li>
+                    <li><a href="#">Hướng dẫn thêm khóa học</a></li>
+                    <li><a href="#">Hướng dẫn làm bài tập</a></li>
+                    <li><a href="#">Hướng dẫn sửa thông tin cá nhân</a></li>
+                    <li><a href="#">Trợ giúp khi bài làm lỗi</a></li>
+                    <li><a href="#">Phản hồi góp ý</a></li>
+                </ul>
+            </div>
+            <div id="right-footer">
+                <img src="../Pages/Images/logo.jpg" width="250px" style="padding-left: 80px; padding-top: 25px" />
+                <%--<p class="p4">
+                    HOÀNG KHANG WATCH NHẬP<br />
+                    KHẨU VÀ PHÂN PHỐI CÁC LOẠI
+                    <br />
+                    ĐỒNG HỒ CHÍNH HÃNG: ĐỒNG HỒ<br />
+                    THỤY SỸ, ĐỒNG HỒ NAM, ĐỒNG<br />
+                    HỒ NỮ, ĐỒNG HỒ ĐÔI.
+                </p>--%>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

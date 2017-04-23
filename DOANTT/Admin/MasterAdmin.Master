@@ -1,0 +1,251 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterAdmin.Master.cs" Inherits="DOANTT.Admin.MasterAdmin" %>
+
+<%@ Register Assembly="DevExpress.Web.v16.2, Version=16.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>QUẢN TRỊ VIÊN - HỆ THỐNG CHẤM BÀI TỰ ĐỘNG - HAUI</title>
+
+    <!-- Bootstrap -->
+    <link href="../Themes/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../Themes/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../Themes/vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- bootstrap-daterangepicker -->
+    <link href="../Themes/vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="../Themes/build/css/custom.min.css" rel="stylesheet">
+
+    <link href="Css/MasterAdminCSS.css" rel="stylesheet" />
+
+    <%----------------------------------------------------------------%>
+    <%--Text Areas--%>
+    <!-- Bootstrap -->
+    <link href="../Themes/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../Themes/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../Themes/vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="../Themes/vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+    <!-- bootstrap-wysiwyg -->
+    <link href="../Themes/vendors/google-code-prettify/bin/prettify.min.css" rel="stylesheet">
+    <!-- Select2 -->
+    <link href="../Themes/vendors/select2/dist/css/select2.min.css" rel="stylesheet">
+    <!-- Switchery -->
+    <link href="../Themes/vendors/switchery/dist/switchery.min.css" rel="stylesheet">
+    <!-- starrr -->
+    <link href="../Themes/vendors/starrr/dist/starrr.css" rel="stylesheet">
+    <!-- bootstrap-daterangepicker -->
+    <link href="../Themes/vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+    <!-- Custom Theme Style -->
+    <link href="../Themes/build/css/custom.min.css" rel="stylesheet">
+</head>
+<body class="nav-md" runat="server">
+    <form id="form1" runat="server">
+        <div class="container body">
+            <div class="main_container">
+                <div class="col-md-3 left_col">
+                    <div class="left_col scroll-view">
+                        <div class="navbar nav_title" style="border: 0;">
+                            <a href="../Pages/Home.aspx" class="site_title"><span>&nbspTRANG CHỦ</span></a>
+                        </div>
+                        <div class="clearfix"></div>
+
+                        <!-- menu profile quick info -->
+                        <div class="profile clearfix">
+                            <div class="profile_pic">
+                                <dx:ASPxImage CssClass="img-circle profile_img" ID="imgAvatarSlide" runat="server" ShowLoadingImage="true" EmptyImage-Url="~/Upload/Users/UserAvatar.png"></dx:ASPxImage>
+                            </div>
+                            <div class="profile_info">
+                                <dx:ASPxLabel ID="lbUserFullName" runat="server"></dx:ASPxLabel>
+                                <br />
+                                <dx:ASPxLabel ID="lbUserCode" runat="server"></dx:ASPxLabel>
+                            </div>
+                        </div>
+                        <!-- /menu profile quick info -->
+
+                        <br />
+
+                        <!-- sidebar menu -->
+                        <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                            <div class="menu_section">
+                                <%--<h3>General</h3>--%>
+                                <ul class="nav side-menu">
+                                    <li><a href="Index.aspx"><i class="fa fa-home"></i>THÔNG TIN CHUNG</a>
+                                        <%--<ul class="nav child_menu">
+                                            <li><a href="index.html">Dashboard</a></li>
+                                            <li><a href="index2.html">Dashboard2</a></li>
+                                            <li><a href="index3.html">Dashboard3</a></li>
+                                        </ul>--%>
+                                    </li>
+                                    <li><a href="Contests.aspx"><i class="fa fa-desktop"></i>QUẢN TRỊ KHÓA HỌC </a>
+
+                                    </li>
+                                    <li><a href="Problems.aspx"><i class="fa fa-edit"></i>QUẢN TRỊ BÀI TẬP </a>
+                                    </li>
+                                    <li><a href="TestCases.aspx"><i class="fa fa-list-ol"></i>QUẢN TRỊ BỘ TEST</a>
+                                    </li>
+                                    <li><a href="Users.aspx"><i class="fa fa-user" aria-hidden="true"></i>QUẢN TRỊ NGƯỜI DÙNG</a>
+                                    </li>
+                                    <li><a href="Notifications.aspx"><i class="fa fa-envelope" aria-hidden="true"></i>QUẢN TRỊ THÔNG BÁO</a>
+                                    </li>
+                                     <li><a href="Accept.aspx"><i class="fa fa-check" aria-hidden="true"></i>
+                                         DUYỆT ĐƠN 
+                                         <asp:Label ID="lbXinVaoLop" runat="server" ></asp:Label>
+                                         </a>
+                                    </li>
+                                    <%-- <li><a><i class="fa fa-user" aria-hidden="true"></i>ĐANG TRUY CẬP:
+                                        <asp:Label ID="lbTruyCap" runat="server"></asp:Label></a></li>
+                                    <li><a><i class="fa fa-users" aria-hidden="true"></i>TỔNG TRUY CẬP:
+                                        <asp:Label ID="lbTongTruyCap" runat="server"></asp:Label></a></li>--%>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <!-- /menu footer buttons -->
+                        <%--<div class="sidebar-footer hidden-small">
+                            <a data-toggle="tooltip" data-placement="top" title="Settings">
+                                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+                            </a>
+                            <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+                            </a>
+                            <a data-toggle="tooltip" data-placement="top" title="Lock">
+                                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+                            </a>
+                            <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+                                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+                            </a>
+                        </div>--%>
+                        <!-- /menu footer buttons -->
+                    </div>
+                </div>
+
+                <!-- top navigation -->
+                <div class="top_nav">
+                    <div class="nav_menu">
+                        <nav>
+                            <div class="nav toggle">
+                                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                            </div>
+                            <div class="nav navbar-nav navbar-left">
+                                <br />
+                                <dx:ASPxLabel ID="lbTitle" runat="server" CssClass="lbTitle"></dx:ASPxLabel>
+                            </div>
+
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="">
+                                    <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                        <dx:ASPxImage ID="imgAvatar" runat="server" ShowLoadingImage="true" EmptyImage-Url="~/Upload/Users/UserAvatar.png"></dx:ASPxImage>
+                                        <dx:ASPxLabel ID="lbUserName" runat="server" Text="YourName"></dx:ASPxLabel>
+
+                                        <span class=" fa fa-angle-down"></span>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                        <li><a href="../Pages/Profile.aspx">Profile</a></li>
+                                        <li>
+                                            <table style="width: 100%" runat="server">
+                                                <tr>
+                                                    <td>
+                                                        <asp:LinkButton ID="btnLogout" runat="server" Text="Log Out" OnClick="btnLogout_Click"></asp:LinkButton>
+                                                    </td>
+                                                    <td style="text-align: right; padding-right: 20px">
+                                                        <i class="fa fa-sign-out pull-right"></i>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>&nbsp;</li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!-- /top navigation -->
+
+                <!-- page content -->
+                <div class="right_col" role="main">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+
+                <!-- /page content -->
+
+                <!-- footer content -->
+                <footer>
+                    <div class="pull-right">
+                        DEVELOP BY NGUYEN TIEN DAT - NGUYEN HUU THUONG 
+                    </div>
+                    <div class="clearfix"></div>
+                </footer>
+                <!-- /footer content -->
+            </div>
+        </div>
+        <!-- jQuery -->
+        <script src="../Themes/vendors/jquery/dist/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="../Themes/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- Custom Theme Scripts -->
+        <script src="../Themes/build/js/custom.min.js"></script>
+
+        <%-----------------------------------------%>
+        <%--Text Areas--%>
+        <script src="../Themes/vendors/jquery/dist/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="../Themes/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- FastClick -->
+        <script src="../Themes/vendors/fastclick/lib/fastclick.js"></script>
+        <!-- NProgress -->
+        <script src="../Themes/vendors/nprogress/nprogress.js"></script>
+        <!-- bootstrap-progressbar -->
+        <script src="../Themes/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+        <!-- iCheck -->
+        <script src="../Themes/vendors/iCheck/icheck.min.js"></script>
+        <!-- bootstrap-daterangepicker -->
+        <script src="../Themes/vendors/moment/min/moment.min.js"></script>
+        <script src="../Themes/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+        <!-- bootstrap-wysiwyg -->
+        <script src="../Themes/vendors/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min.js"></script>
+        <script src="../Themes/vendors/jquery.hotkeys/jquery.hotkeys.js"></script>
+        <script src="../Themes/vendors/google-code-prettify/src/prettify.js"></script>
+        <!-- jQuery Tags Input -->
+        <script src="../Themes/vendors/jquery.tagsinput/src/jquery.tagsinput.js"></script>
+        <!-- Switchery -->
+        <script src="../Themes/vendors/switchery/dist/switchery.min.js"></script>
+        <!-- Select2 -->
+        <script src="../Themes/vendors/select2/dist/js/select2.full.min.js"></script>
+        <!-- Parsley -->
+        <script src="../Themes/vendors/parsleyjs/dist/parsley.min.js"></script>
+        <!-- Autosize -->
+        <script src="../Themes/vendors/autosize/dist/autosize.min.js"></script>
+        <!-- jQuery autocomplete -->
+        <script src="../Themes/vendors/devbridge-autocomplete/dist/jquery.autocomplete.min.js"></script>
+        <!-- starrr -->
+        <script src="../Themes/vendors/starrr/dist/starrr.js"></script>
+        <!-- Custom Theme Scripts -->
+        <script src="../Themes/build/js/custom.min.js"></script>
+
+
+        <!-- jQuery -->
+        <script src="../Themes/vendors/jquery/dist/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="../Themes/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- Custom Theme Scripts -->
+        <script src="../Themes/build/js/custom.min.js"></script>
+    </form>
+</body>
+</html>

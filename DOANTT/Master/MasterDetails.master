@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Master/Main.Master" AutoEventWireup="true" CodeBehind="MasterDetails.master.cs" Inherits="Master.MasterDetails" %>
+
+<%@ Register Assembly="DevExpress.Web.v16.2, Version=16.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="content1" runat="server">
+    <%--<link rel="stylesheet" type="text/css" href="../bootstrap/css/style.css">--%>
+  <link rel="stylesheet" type="text/css" href="Css/css.css" />
+
+    <asp:Panel ID="Panel1" runat="server" CssClass="details">
+
+        <div id="left-content">
+            <br />
+            <ul>
+                <li style="color: #ffd800; list-style-type: none">
+                    <h4>DANH MỤC SẢN PHẨM</h4>
+                </li>
+                <li><a href="Product_Trademark.aspx?id=1">Đồng hồ Epos Swiss</a></li>
+                <li><a href="Product_Trademark.aspx?id=2">Bruno Sohnle Glashutte</a></li>
+                <li><a href="Product_Trademark.aspx?id=3">Đồng hồ Tourbillon Memorigin</a></li>
+                <li><a href="Product_Trademark.aspx?id=4">Đồng hồ Stuhrling Tourbillon</a></li>
+                <li><a href="Product_Trademark.aspx?id=5">Đồng hồ Atlantic Swiss</a></li>
+                <li><a href="Product_Trademark.aspx?id=6">Stuhrling Original Swiss</a></li>
+                <li><a href="Product_Trademark.aspx?id=7">Đồng hồ Aries Gold</a></li>
+                <li><a href="Product_Trademark.aspx?id=8">Đồng hồ Jacques Lemans</a></li>
+                <li><a href="Product_Trademark.aspx?id=9">ĐỒNG HỒ DIAMOND D</a></li>
+                <li><a href="Product_Trademark.aspx?id=10">Đồng hồ Jacques Du Manoir</a></li>
+                <li><a href="Product_Trademark.aspx?id=11">Đồng hồ Citizen</a></li>
+                <li><a href="Product_Trademark.aspx?id=12">Đồng hồ Casio</a></li>
+            </ul>
+            <br />
+            <ul>
+                <li style="color: #ffd800; list-style-type: none">
+                    <h4>KHOẢNG GIÁ</h4>
+                </li>
+                <li><a href="Search.aspx?search=price05">Giá dưới 5 triệu</a></li>
+                <li><a href="Search.aspx?search=price510">Giá từ 5 - 10 triệu</a></li>
+                <li><a href="Search.aspx?search=price1020">Giá từ 10 - 20 triệu</a></li>
+                <li><a href="Search.aspx?search=price2050">Giá từ 20 - 50 triệu</a></li>
+                <li><a href="Search.aspx?search=price50">Giá trên 50 triệu</a></li>
+            </ul>
+            <br />
+            <ul>
+                <li style="color: #ffd800; list-style-type: none">
+                    <h4>LOẠI VỎ</h4>
+                </li>
+                <li><a href="Search.aspx?search=material4">Thép Không gỉ</a></li>
+                <li><a href="Search.aspx?search=material3">Mạ vàng</a></li>
+                <li><a href="Search.aspx?search=material2">Mạ bạc</a></li>
+                <li><a href="Search.aspx?search=material1">Nhựa cao cấp</a></li>
+            </ul>
+            <img src="../Pages/Images/quangcao.jpg" width="259px" height="300px" />
+            <div id="bottom">
+                Đang online:
+                <dx:ASPxLabel ID="lbOnline" runat="server" Text="ASPxLabel" CssClass="txt"></dx:ASPxLabel>
+                <br />
+                Tổng truy cập :
+                <dx:ASPxLabel ID="lbSumOnline" runat="server" Text="ASPxLabel" CssClass="txt"></dx:ASPxLabel>
+            </div>
+        </div>
+        <div id="right-content">
+            <asp:ContentPlaceHolder ID="content2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </asp:Panel>
+
+</asp:Content>

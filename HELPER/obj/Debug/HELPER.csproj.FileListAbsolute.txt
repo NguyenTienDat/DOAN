@@ -1,0 +1,23 @@
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\HELPER\bin\Debug\HELPER.dll
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\HELPER\bin\Debug\HELPER.pdb
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\HELPER\obj\Debug\HELPER.csprojResolveAssemblyReference.cache
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\HELPER\obj\Debug\HELPER.dll
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\HELPER\obj\Debug\HELPER.pdb
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\HELPER\bin\Debug\DTO.dll
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\HELPER\bin\Debug\DTO.pdb
+F:\OneDrive\DOAN\HELPER\obj\Debug\HELPER.csprojResolveAssemblyReference.cache
+F:\OneDrive\DOAN\HELPER\obj\Debug\HELPER.dll
+F:\OneDrive\DOAN\HELPER\obj\Debug\HELPER.pdb
+F:\OneDrive\DOAN\HELPER\bin\Debug\HELPER.dll
+F:\OneDrive\DOAN\HELPER\bin\Debug\HELPER.pdb
+F:\OneDrive\DOAN\HELPER\bin\Debug\DTO.dll
+F:\OneDrive\DOAN\HELPER\bin\Debug\DTO.pdb
+F:\OneDrive\DOAN\HELPER\bin\Debug\BUS.dll
+F:\OneDrive\DOAN\HELPER\bin\Debug\BUS.pdb
+D:\PROJECT\DOAN\HELPER\bin\Debug\HELPER.dll
+D:\PROJECT\DOAN\HELPER\bin\Debug\HELPER.pdb
+D:\PROJECT\DOAN\HELPER\obj\Debug\HELPER.dll
+D:\PROJECT\DOAN\HELPER\obj\Debug\HELPER.pdb
+D:\PROJECT\DOAN\HELPER\bin\Debug\BUS.dll
+D:\PROJECT\DOAN\HELPER\bin\Debug\BUS.pdb
+D:\PROJECT\DOAN\HELPER\obj\Debug\HELPER.csprojResolveAssemblyReference.cache

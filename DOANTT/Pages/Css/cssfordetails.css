@@ -1,0 +1,72 @@
+﻿
+.dtl {
+    color: white;
+    margin-top: 5px;
+    line-height:30px;
+}
+
+.dtl_title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dtl_name {
+}
+
+.dtl_price {
+    color: #ef9200;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.dtl_guarantee {
+}
+
+.dtl_support {
+    color: #ffd800;
+}
+
+.fa-check {
+    color: #Ef9200;
+    font-size: 15px;
+    padding: 0px 5px 0px 5px;
+}
+
+.btn {
+    width: 300px;
+    height: 70px;
+    background-color:orange;
+    color:white;
+    font-weight:bold;
+}
+
+.table {
+    width: 1000px;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+}
+.pn1{
+    margin-top:20px;
+    margin-left: 10px;
+}
+.pn2{
+    margin-top:40px;
+    margin-left:30px;
+    padding-top:20px;
+    padding-left:20px;
+}
+.hpl{
+    text-decoration:none;
+    color: orange;
+    font-weight:bold;
+}
+
+
+.pn3{
+    padding:20px;
+    text-align:center;
+}
+.imgdetail_item{
+    padding:20px;
+}

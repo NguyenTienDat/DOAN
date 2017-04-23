@@ -1,0 +1,88 @@
+﻿.container {
+    width: 500px;
+    min-height: 550px;
+    border: 2px solid #d5dae9;
+    font: normal 12px Tahoma,Calibri,Verdana,Geneva,sans-serif;
+    margin: auto;
+    margin-top: 50px;
+    border-radius:3px;
+    margin-bottom:50px;
+}
+.sigin{
+    width:100%;
+    height:80px;
+    text-align:center;
+    background-color:#242424;
+    color:#fff;
+}
+.sigin h2{
+    font-size: 24px;
+    font-weight:bold;
+    padding-top: 25px;
+    font-family:inherit;
+}
+.txt{
+    width:355px;
+    height:35px;
+    border: 1px solid #d5dae9;
+    border-radius:2px;
+    padding-left:20px;
+    font-size:16px;
+    margin-left:20px;
+    margin-top: 10px;
+    
+}
+#txtho
+{
+    width: 130px;
+    height:35px;
+    border: 1px solid #d5dae9;
+    border-radius:2px;
+    padding-left:20px;
+    font-size:16px;
+}
+#txtten
+{
+    width: 180px;
+    height:35px;
+    border: 1px solid #d5dae9;
+    border-radius:2px;
+    padding-left:20px;
+    font-size:16px;
+}
+.content h4
+{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.lblngaysinh
+{
+    padding-left: 20px;
+    font-size: 16px;
+}
+.clcselect {
+    margin-left: 20px;
+    padding: 8px 10px;
+}
+.rd
+{
+    margin-left: 20px;
+}
+.lblckc{
+    font-size:16px;
+}
+.btn
+{
+    width: 250px;
+    height: 40px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    color: white;
+    background: #242424;
+    border: 1px solid #242424;
+    border-radius: 3px;
+    font-size:18px;
+    cursor:pointer;
+}

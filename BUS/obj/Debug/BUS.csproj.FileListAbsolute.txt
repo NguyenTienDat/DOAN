@@ -1,0 +1,40 @@
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\BUS\bin\Debug\BUS.dll
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\BUS\bin\Debug\BUS.pdb
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\BUS\obj\Debug\BUS.dll
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\BUS\obj\Debug\BUS.pdb
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\BUS\bin\Debug\HELPER.dll
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\BUS\bin\Debug\HELPER.pdb
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\BUS\bin\Debug\DTO.dll
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\BUS\bin\Debug\DTO.pdb
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\BUS\bin\Debug\System.Web.Http.dll
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\BUS\bin\Debug\System.Net.Http.Formatting.dll
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\BUS\bin\Debug\Newtonsoft.Json.dll
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\BUS\bin\Debug\System.Web.Http.xml
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\BUS\bin\Debug\System.Net.Http.Formatting.xml
+F:\OneDrive\DOAN\BUS\bin\Debug\BUS.dll
+F:\OneDrive\DOAN\BUS\bin\Debug\BUS.pdb
+F:\OneDrive\DOAN\BUS\bin\Debug\DTO.dll
+F:\OneDrive\DOAN\BUS\bin\Debug\HELPER.dll
+F:\OneDrive\DOAN\BUS\bin\Debug\System.Web.Http.dll
+F:\OneDrive\DOAN\BUS\bin\Debug\System.Net.Http.Formatting.dll
+F:\OneDrive\DOAN\BUS\bin\Debug\Newtonsoft.Json.dll
+F:\OneDrive\DOAN\BUS\bin\Debug\DTO.pdb
+F:\OneDrive\DOAN\BUS\bin\Debug\HELPER.pdb
+F:\OneDrive\DOAN\BUS\bin\Debug\System.Web.Http.xml
+F:\OneDrive\DOAN\BUS\bin\Debug\System.Net.Http.Formatting.xml
+F:\OneDrive\DOAN\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+F:\OneDrive\DOAN\BUS\obj\Debug\BUS.dll
+F:\OneDrive\DOAN\BUS\obj\Debug\BUS.pdb
+D:\PROJECT\DOAN\BUS\bin\Debug\BUS.dll
+D:\PROJECT\DOAN\BUS\bin\Debug\BUS.pdb
+D:\PROJECT\DOAN\BUS\bin\Debug\HELPER.dll
+D:\PROJECT\DOAN\BUS\bin\Debug\Newtonsoft.Json.dll
+D:\PROJECT\DOAN\BUS\bin\Debug\HELPER.pdb
+D:\PROJECT\DOAN\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+D:\PROJECT\DOAN\BUS\obj\Debug\BUS.dll
+D:\PROJECT\DOAN\BUS\obj\Debug\BUS.pdb
+D:\PROJECT\DOAN\BUS\bin\Debug\System.Web.Http.dll
+D:\PROJECT\DOAN\BUS\bin\Debug\System.Net.Http.Formatting.dll
+D:\PROJECT\DOAN\BUS\bin\Debug\System.Web.Http.xml
+D:\PROJECT\DOAN\BUS\bin\Debug\System.Net.Http.Formatting.xml

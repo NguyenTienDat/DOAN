@@ -1,0 +1,61 @@
+﻿
+#buynow_top{
+    width:600px;
+    height:40px;
+    border:1px solid #000000;
+    text-align:center;
+    line-height:40px;
+    
+}
+#buynow_content{
+    width:600px;
+    height:450px;
+    float:left;
+    border:1px solid #000000;
+}
+#buynow_left{
+    width:298px;
+    height:400px;
+    float:left;
+}
+#buynow_right{
+    width:298px;
+    height:400px;
+    float:left;
+    text-align:center;
+}
+#buynow_anh{
+    float:left;
+    border:1px solid #000000;
+    border-width:5px;
+    margin-top: 40px;
+    margin-left:37px;
+
+}
+
+.p8{
+    float:left;
+    font-size:15px;
+    padding-top:30px;
+    padding-left:10px;
+    color:#f84805;
+    line-height:22px;
+
+}
+.uc_buynow_price{
+   font-weight:bold;
+}
+.buynow_txtbox{
+    width:270px;
+    height:35px;
+    margin-top:18px;
+    border-radius:2px;
+}
+buynow_h4{
+    margin-top:12px;
+}
+.uc_buynow_btn{
+    margin-top:17px;
+    margin-right:30px;
+    border-radius:4px;
+}

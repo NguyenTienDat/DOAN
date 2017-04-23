@@ -1,0 +1,57 @@
+F:\OneDrive\TAI LIEU\BTL\NAM 4-KY I\LAP TRINH UNG DUNG WEB\CODE\DOAN\DOANTT\bin\DOANTT.dll.config
+F:\OneDrive\TAI LIEU\BTL\NAM 4-KY I\LAP TRINH UNG DUNG WEB\CODE\DOAN\DOANTT\bin\DOANTT.dll
+F:\OneDrive\TAI LIEU\BTL\NAM 4-KY I\LAP TRINH UNG DUNG WEB\CODE\DOAN\DOANTT\bin\DOANTT.pdb
+F:\OneDrive\TAI LIEU\BTL\NAM 4-KY I\LAP TRINH UNG DUNG WEB\CODE\DOAN\DOANTT\obj\Debug\DOANTT.csprojResolveAssemblyReference.cache
+F:\OneDrive\TAI LIEU\BTL\NAM 4-KY I\LAP TRINH UNG DUNG WEB\CODE\DOAN\DOANTT\obj\Debug\DOANTT.dll
+F:\OneDrive\TAI LIEU\BTL\NAM 4-KY I\LAP TRINH UNG DUNG WEB\CODE\DOAN\DOANTT\obj\Debug\DOANTT.pdb
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\DOANTT\bin\DOANTT.dll.config
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\DOANTT\bin\DOANTT.dll
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\DOANTT\bin\DOANTT.pdb
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\DOANTT\bin\BUS.dll
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\DOANTT\bin\BUS.pdb
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\DOANTT\obj\Debug\DOANTT.csprojResolveAssemblyReference.cache
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\DOANTT\obj\Debug\DOANTT.dll
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\DOANTT\obj\Debug\DOANTT.pdb
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\DOANTT\bin\HELPER.dll
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\DOANTT\bin\HELPER.pdb
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\DOANTT\obj\Debug\DOANTT.dll.licenses
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\DOANTT\bin\DTO.dll
+F:\OneDrive\TAI LIEU\BTL\DO_AN_TTTN\DOAN\DOANTT\bin\DTO.pdb
+F:\OneDrive\DOAN\DOANTT\bin\DOANTT.dll.config
+F:\OneDrive\DOAN\DOANTT\bin\DOANTT.dll
+F:\OneDrive\DOAN\DOANTT\bin\DOANTT.pdb
+F:\OneDrive\DOAN\DOANTT\bin\BUS.dll
+F:\OneDrive\DOAN\DOANTT\bin\DTO.dll
+F:\OneDrive\DOAN\DOANTT\bin\HELPER.dll
+F:\OneDrive\DOAN\DOANTT\bin\BUS.pdb
+F:\OneDrive\DOAN\DOANTT\bin\DTO.pdb
+F:\OneDrive\DOAN\DOANTT\bin\HELPER.pdb
+F:\OneDrive\DOAN\DOANTT\obj\Debug\DOANTT.csprojResolveAssemblyReference.cache
+F:\OneDrive\DOAN\DOANTT\obj\Debug\DOANTT.dll.licenses
+F:\OneDrive\DOAN\DOANTT\obj\Debug\DOANTT.dll
+F:\OneDrive\DOAN\DOANTT\obj\Debug\DOANTT.pdb
+D:\PROJECT\DOAN\DOANTT\obj\Debug\DOANTT.csprojResolveAssemblyReference.cache
+D:\PROJECT\DOAN\DOANTT\obj\Debug\DOANTT.dll.licenses
+D:\PROJECT\DOAN\DOANTT\bin\DOANTT.dll.config
+D:\PROJECT\DOAN\DOANTT\bin\DOANTT.dll
+D:\PROJECT\DOAN\DOANTT\bin\DOANTT.pdb
+D:\PROJECT\DOAN\DOANTT\bin\BUS.dll
+D:\PROJECT\DOAN\DOANTT\bin\HELPER.dll
+D:\PROJECT\DOAN\DOANTT\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\PROJECT\DOAN\DOANTT\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\PROJECT\DOAN\DOANTT\bin\Microsoft.Owin.dll
+D:\PROJECT\DOAN\DOANTT\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\PROJECT\DOAN\DOANTT\bin\Microsoft.Owin.Security.dll
+D:\PROJECT\DOAN\DOANTT\bin\Newtonsoft.Json.dll
+D:\PROJECT\DOAN\DOANTT\bin\Owin.dll
+D:\PROJECT\DOAN\DOANTT\bin\BUS.pdb
+D:\PROJECT\DOAN\DOANTT\bin\HELPER.pdb
+D:\PROJECT\DOAN\DOANTT\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\PROJECT\DOAN\DOANTT\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\PROJECT\DOAN\DOANTT\bin\Microsoft.Owin.xml
+D:\PROJECT\DOAN\DOANTT\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\PROJECT\DOAN\DOANTT\bin\Microsoft.Owin.Security.xml
+D:\PROJECT\DOAN\DOANTT\bin\Newtonsoft.Json.xml
+D:\PROJECT\DOAN\DOANTT\obj\Debug\DOANTT.dll
+D:\PROJECT\DOAN\DOANTT\obj\Debug\DOANTT.pdb
+D:\PROJECT\DOAN\DOANTT\bin\Microsoft.Web.Infrastructure.dll

@@ -1,0 +1,135 @@
+﻿.header {
+    height: 50px;
+    background-color: #3c8dbc;
+}
+
+    .header h2 {
+        line-height: 15px;
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+        text-align: center;
+    }
+
+#main .header-left {
+    background: #367fa9;
+    overflow: hidden;
+    height: 50px;
+    width: 300px;
+}
+
+#main .fa-bars {
+    font-size: 18px;
+    color: #fff;
+    line-height: 50px;
+}
+
+#main .fa-circle {
+    font-size: 12px !important;
+    padding-right: 0px !important;
+}
+
+#main .row {
+    margin: 0px;
+}
+
+.header .btn {
+    margin-top: 8px;
+}
+
+.btn-primary {
+    margin-right: 12px;
+}
+
+.content-left {
+    width: 100%;
+    height: auto;
+    background: #222d32;
+}
+
+.author-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+.author {
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.author-des {
+    float: left;
+    color: #fff;
+    padding-left: 10px;
+    line-height: 12px;
+    padding-top: 14px;
+    font-size: 13px;
+}
+
+.admin-name {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.admin-stt {
+    font-size: 11px;
+}
+
+.search {
+    margin: 10px 5px;
+}
+
+#main .content-left {
+    width: 300px;
+}
+
+#main .col-md-3 {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#main ul {
+    padding-left: 0px;
+}
+
+#main .fa {
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.menu ul li {
+    list-style: none;
+    width: 100%;
+}
+
+    .menu ul li a {
+        display: block;
+        padding: 15px 15px;
+        font-size: 15px;
+        color: #b8c7ce;
+    }
+
+    .menu ul li:hover {
+        background: #1e282c;
+    }
+
+    .menu ul li a:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+
+.footer {
+    height: 50px;
+    background: #fff;
+    text-align: center;
+}
+
+.service {
+    font-size: 12px;
+    line-height: 50px;
+    font-weight: bold;
+}
